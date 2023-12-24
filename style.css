@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+nav ul li:hover{
+    background-color: #9370DB;
+    padding:13px;
+    border-radius: 5px;
+}
+.topleft{
+    width: 50%;
+}
+nav ul li{
+    font-size: 20px;
+    font-weight:700;
+}
+nav ul li.btn:hover{
+  background-color: none;
+}
+.topright{ 
+    width: 50%;
+}
+
+.design{
+   max-height: 100vh; 
+   color: #711e15;
+}
+
+.design h1{
+    color: #37110d;
+    font-size: 2rem;
+}
+
+.logo{
+    font-size: 30px;
+}
+
+.dumbellimg{
+    width: 289px;
+}
+
+.topright .gymimg{
+    width: 466px;
+}
+
+.section2{
+    padding: 73px;
+    background-color: #F0FFFF;
+}
+.section2 h1{
+    padding-bottom: 20px;
+}
+.section2 .box:hover{
+    background-color: #DCDCDC;
+}
+.section2 .box{
+    padding:20px;
+}
+.section2 .box ul li{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.section2 h1{
+    font-size: 2.3rem;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(120, 54, 16);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+   margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    padding: 23px;
+    background: black;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
+.mydesign{
+    min-height: 100%;
+}
+.design{
+    background-image: url(./hotel.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width:100%;
+    min-height: 70vh;
+}
+.bg-red{
+    background-color: red;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.flex h1{
+    padding-top: 100px;
+    font-size: 42px;
+}
+.flex p{
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-size: 22px;
+}
+section .service{
+    display: flex;
+    margin-top:90px;
+    margin-bottom:90px;
+}
+.col-md-5 img{
+    border-radius: 10px;
+}
+.col-md-5{
+    width:60%;
+}
+.col-md-7{
+    width:40%;
+}
+.col-md-5 h2{
+  text-align: left;
+  line-height: normal;
+  font-size: 35px;
+  padding: 130px 20px 20px 20px;
+  font-weight: 900;
+  color: black;
+}
+.col-md-5 .btn{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+}
+.col-md-5 p{
+   font-size: 18px;
+   font-weight: 500;
+   max-width: 100%;
+   line-height: normal;
+   color: black;
+   padding:10px 20px 20px 20px;
+}
+.flex .btn{
+    font-size: 16px;
+}
+.items-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.font-bold{
+    font-weight: bolder;
+}
+
+.my-1{
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.mydesign .design.flex h1.my-1{
+    text-align: center;
+    align-items: center;
+    top:300px;
+}
+.my-2{
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.px-2{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.text-blue{
+    color: rgb(227 74 56);;
+}
+
+.btn{
+    padding:12px;
+    margin-left:10px;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: #9370DB;
+}
+
+.overflow-x-hidden{
+    overflow-x: hidden;
+    text-align: center;
+}
+
+.text-center{
+    text-align: center;
+}
